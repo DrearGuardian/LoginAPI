@@ -1,0 +1,108 @@
+/* You can add global styles to this file, and also import other style files */
+/* Estilos generales */
+body {
+    background-color: #f5f5f5; /* Fondo suave */
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centrado horizontal */
+    align-items: center;     /* Centrado vertical */
+    height: 100vh;           /* Asegura que el body ocupe toda la altura de la pantalla */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Tipografía simple */
+    color: #333; /* Color general de texto */
+  }
+  
+  /* Contenedor del formulario de login */
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Centrado vertical en el contenedor */
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+    background-color: #fff; /* Fondo blanco */
+    border-radius: 12px; /* Bordes más suaves */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Sombras suaves */
+    text-align: center;
+  }
+  
+  /* Estilo del título */
+  h2 {
+    font-size: 26px;
+    color: #333;
+    margin-bottom: 25px;
+    font-weight: 600;
+  }
+  
+  /* Estilo de cada div dentro del formulario */
+  form div {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  /* Etiquetas */
+  label {
+    display: block;
+    margin-bottom: 8px;
+    color: #666;
+    font-size: 14px;
+  }
+  
+  /* Estilo de los campos de entrada */
+  input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px; /* Bordes más suaves */
+    background-color: #fafafa; /* Fondo de los campos */
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  /* Estilo cuando los campos están enfocados */
+  input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 6px rgba(0, 123, 255, 0.2);
+    outline: none;
+  }
+  
+  /* Estilo de los botones */
+  button {
+    width: 100%;
+    padding: 14px;
+    background-color: #007bff; /* Color azul */
+    color: white;
+    border: none;
+    border-radius: 8px; /* Bordes más suaves */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    font-weight: 600;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Efecto al pasar el ratón */
+  }
+  
+  button:active {
+    transform: translateY(2px); /* Efecto al hacer clic */
+  }
+  
+  /* Estilo del mensaje de error */
+  .error {
+    color: #ff4d4d;
+    font-size: 14px;
+    margin-top: 15px;
+  }
+  
+  /* Estilo de los enlaces (si deseas agregar uno en el futuro) */
+  .password-recovery {
+    color: #007bff;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  
+  .password-recovery:hover {
+    text-decoration: underline;
+  }
+  
